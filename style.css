@@ -21,6 +21,11 @@ body{
     text-decoration: none;
 }
 
+.menu li a:hover{
+    font-size: 18px;
+    color:red;
+}
+
 .oyunlar li{
     list-style-position: inside;
 }
@@ -32,6 +37,11 @@ body{
 
 .urunler img{
     width: 400px;
+    margin-top: 30px;
+}
+.urunler img:hover{
+    width: 450px;
+    border-radius: 20px;
     margin-top: 30px;
 }
 
